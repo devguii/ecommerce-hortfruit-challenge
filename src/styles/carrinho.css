@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  article {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .carrinho_box img {
+    width: 50px;
+    height: 50px;
+  }
+  .carrinho_img {
+    display: flex;
+    width: 400px;
+  }
+  
+  .carrinho_img p {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .carrinho_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid springgreen;
+    padding-bottom: 5px;
+  }
+  
+  .carrinho_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .carrinho_box div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: springgreen;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .carrinho_box div:nth-child(3) button:hover {
+    background-color: darkseagreen;
+  }
+  .carrinho_box div:nth-child(3) span {
+    background-color: springgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total span:nth-child(1) {
+    font-size: 2rem;
+    color: springgreen;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .total span:nth-child(2) {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .changeButtonsDiv {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .buttonDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+  
+  }
+  
+  .changeButton {
+    padding: 0px;
+    outline: 0;
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    margin: 5px;
+  
+    font-size: 16px
+  }
+  
+  .add {
+    background-color: rgb(11, 121, 232);
+  }
+  
+  .itemAmount {
+    width: 100px;
+  
+    background: none;
+  
+    font-size: 20px
+  }
+  
+  .remove {
+    background-color: red
+  }
+  
+  .clearButton {
+    padding: 8px;
+    outline: 0;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 10px;
+    margin: 10px;
+  
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  
+    background-color: springgreen;
+  }
+  

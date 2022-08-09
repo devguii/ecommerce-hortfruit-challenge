@@ -15,8 +15,8 @@ const Carrinho = ({ carrinho, setCarrinho, handleChangeAdd, handleChangeDel }) =
   return (
     <article>
       {carrinho.map((item) => (
-        <div className="cart_box" key={item.id}>
-          <div className="cart_img">
+        <div className="carrinho_box" key={item.id}>
+          <div className="carrinho_img">
             <p>{item.name}</p>
           </div>
           <div className="changeButtonsDiv">

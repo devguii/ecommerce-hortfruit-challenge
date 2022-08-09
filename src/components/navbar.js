@@ -8,10 +8,10 @@ const Navbar = ({ setShow, size }) => {
         <span className="my_shop" onClick={() => setShow(true)}>
           Frexco
         </span>
-        <div className="cart" onClick={() => setShow(false)}>
+        <div className="carrinho" onClick={() => setShow(false)}>
           <span>
-            <i className="fas fa-cart-plus"></i>
-          </span>
+          <img src="../../public/cart-shopping-solid.svg" alt="carrinho"></img>
+        </span>
           <span>{size}</span>
         </div>
       </div>
