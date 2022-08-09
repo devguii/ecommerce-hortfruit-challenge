@@ -19,6 +19,6 @@ assim resolvendo o problema de CORS para comunicação com a API.
 ### Aplicação
 Agora, abra um terminal na pasta `src` e excute os seguintes comandos:
 
-`npm install`, e depois `npm run dev`
+`npm install`, e depois `npm start`
 
 Prontinho, agora só testar a aplicação!
