@@ -7,7 +7,7 @@ Foi proposta a criação de um e-commerce de hortifruti, onde deveria conter uma
 # Instalação
 ### Middleware para resolução CORS
 Separadamente, na pasta `middleware`, abra o terminal e rode o comando:
-`npm run dev` assim resolvendo o problema de CORS para comunicação com a API.
+`npm run dev`, deverá aparecer a seguinte mensagem no terminal: `[HPM] Proxy created: /  -> https://www.fruityvice.com` assim resolvendo o problema de CORS para comunicação com a API.
 
 ### Aplicação
 Agora, abra um terminal na pasta `src` e excute os seguintes comandos:
